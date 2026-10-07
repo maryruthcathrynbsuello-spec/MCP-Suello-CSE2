@@ -1,0 +1,10 @@
+{"ts": "2026-10-07 14:34:19", "tool": "create_folder", "args": {"path": "demo"}, "ok": true}
+{"ts": "2026-10-07 14:34:19", "tool": "write_file", "args": {"path": "demo/hello.txt", "content": "Hello MCP"}, "ok": true}
+{"ts": "2026-10-07 14:34:19", "tool": "read_file", "args": {"path": "demo/hello.txt"}, "ok": true}
+{"ts": "2026-10-07 14:34:19", "tool": "read_file", "args": {"path": "../../etc/passwd"}, "ok": false}
+{"ts": "2026-10-07 14:34:19", "tool": "delete_file", "args": {"path": "demo/hello.txt"}, "ok": false}
+{"ts": "2026-10-07 14:38:49", "tool": "write_file", "args": {"path": "inspector/test.txt", "content": "hi"}, "ok": true}
+{"ts": "2026-10-07 14:41:54", "tool": "write_file", "args": {"path": "inspector/test.txt", "content": "hi"}, "ok": false}
+{"ts": "2026-10-07 15:18:49", "tool": "list_files", "args": {}, "ok": true}
+{"ts": "2026-10-07 15:18:58", "tool": "create_folder", "args": {"path": "reports"}, "ok": true}
+{"ts": "2026-10-07 15:19:05", "tool": "write_file", "args": {"path": "reports/summary.txt", "content": "Project Summary\nGoal: Deliver a working, well-documented solution on schedule an..."}, "ok": true}
